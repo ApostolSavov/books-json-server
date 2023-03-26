@@ -14,7 +14,7 @@
   "reviews": [
     {
       "userId": 1,
-      "bookId": 5,
+      "bookId": 1,
       "title": "Amazing book",
       "content": "What an amazing book this was. I dont know what else to say so lorem ipsum. The trees are red and the sky is black, today I ate potatoes and life is good.",
       "rating": 5,
@@ -23,24 +23,24 @@
       "id": 1
     },
     {
+      "title": "tsetsse",
+      "content": "tsetsse",
+      "rating": "3",
+      "upvotes": 0,
+      "downvotes": 0,
       "userId": 1,
-      "bookId": 5,
-      "title": "Amazing book",
-      "content": "What an amazing book this was. I dont know what else to say so lorem ipsum. The trees are red and the sky is black, today I ate potatoes and life is good.",
-      "rating": 5,
-      "upvotes": 3,
-      "downvotes": 1,
-      "id": 2
+      "bookId": 3,
+      "id": 4
     },
     {
+      "title": "asd",
+      "content": "asd",
+      "rating": 1,
+      "upvotes": 0,
+      "downvotes": 0,
       "userId": 1,
-      "bookId": 2,
-      "title": "Amazing book",
-      "content": "What an amazing book this was. I dont know what else to say so lorem ipsum. The trees are red and the sky is black, today I ate potatoes and life is good.",
-      "rating": 5,
-      "upvotes": 3,
-      "downvotes": 1,
-      "id": 3
+      "bookId": 5,
+      "id": 5
     }
   ],
   "books": [
