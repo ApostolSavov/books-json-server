@@ -23,24 +23,24 @@
       "id": 1
     },
     {
-      "title": "tsetsse",
-      "content": "tsetsse",
-      "rating": "3",
+      "title": "Wonderful tale of magic",
+      "content": "I like this very much and this is a random review to provide an example. Actually, I haven't read the book. Etc, etc, etc.",
+      "rating": "5",
       "upvotes": 0,
       "downvotes": 0,
       "userId": 1,
-      "bookId": 3,
-      "id": 4
+      "bookId": 6,
+      "id": 6
     },
     {
-      "title": "asd",
-      "content": "asd",
-      "rating": 1,
+      "title": "Hidden gem!",
+      "content": "An unassuming book about various topics everyone can relate to. Weird, but interesing. Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+      "rating": "4",
       "upvotes": 0,
       "downvotes": 0,
       "userId": 1,
-      "bookId": 5,
-      "id": 5
+      "bookId": 2,
+      "id": 7
     }
   ],
   "books": [
