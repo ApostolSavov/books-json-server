@@ -17,7 +17,7 @@
       "bookId": 1,
       "title": "Amazing book",
       "content": "What an amazing book this was. I dont know what else to say so lorem ipsum. The trees are red and the sky is black, today I ate potatoes and life is good.",
-      "rating": 5,
+      "rating": "4",
       "upvotes": 3,
       "downvotes": 1,
       "id": 1
