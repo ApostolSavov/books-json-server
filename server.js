@@ -4,7 +4,7 @@ const authRoutes = require('./routes.json');
 const cors = require('cors');
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: '*',
     optionsSuccessStatus: 200
 };
 
@@ -15,8 +15,10 @@ const authMiddleware = jsonServer.rewriter(authRoutes);
 
 app.db = router.db;
 
+const port = process.env.PORT || 4000;
+
 app.use(cors(corsOptions));
 app.use(authMiddleware);
 app.use(auth);
 app.use(router);
-app.listen(4000);
+app.listen(port);
