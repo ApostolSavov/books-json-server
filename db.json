@@ -1,19 +1,19 @@
 {
   "users": [
     {
-      "username": "pesho",
-      "resume": "I'm cool",
-      "email": "admin@mail.com",
-      "password": "$2a$10$AnZKj715QXa7vk8czrSzRuL62F/FgrtqltVoLuTM5irf3HTmQN0yi",
-      "readList": [],
+      "email": "test@test.com",
+      "password": "$2a$10$W/BHvDyXoiF5/8CM8iSTMOcqKxbmKNSjcLHHLd.2tAUzA8ZV/kdVW",
+      "username": "test",
+      "readlist": [],
       "favourites": [],
-      "completed": [],
+      "upvotes": [],
+      "downvotes": [],
       "id": 1
     }
   ],
   "reviews": [
     {
-      "authorId": 1,
+      "userId": 1,
       "bookId": 5,
       "title": "Amazing book",
       "content": "What an amazing book this was. I dont know what else to say so lorem ipsum. The trees are red and the sky is black, today I ate potatoes and life is good.",
@@ -23,7 +23,7 @@
       "id": 1
     },
     {
-      "authorId": 1,
+      "userId": 1,
       "bookId": 5,
       "title": "Amazing book",
       "content": "What an amazing book this was. I dont know what else to say so lorem ipsum. The trees are red and the sky is black, today I ate potatoes and life is good.",
@@ -33,7 +33,7 @@
       "id": 2
     },
     {
-      "authorId": 1,
+      "userId": 1,
       "bookId": 2,
       "title": "Amazing book",
       "content": "What an amazing book this was. I dont know what else to say so lorem ipsum. The trees are red and the sky is black, today I ate potatoes and life is good.",
