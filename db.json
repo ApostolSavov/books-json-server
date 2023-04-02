@@ -51,12 +51,20 @@
       "upvotes": [
         1
       ],
-      "downvotes": [
-        1
-      ],
+      "downvotes": [],
       "userId": 2,
       "bookId": 4,
       "id": 8
+    },
+    {
+      "title": "A new review by test user 2",
+      "content": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+      "rating": "3",
+      "upvotes": [],
+      "downvotes": [],
+      "userId": 2,
+      "bookId": 1,
+      "id": 9
     }
   ],
   "books": [
