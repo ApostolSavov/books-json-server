@@ -3,5 +3,6 @@
     "/books": "/444/books",
     "/books/:id": "/444/books/:id",
     "/reviews": "/664/reviews",
-    "/reviews/:id": "/664/reviews/:id"
+    "/reviews/:id": "/644/reviews/:id",
+    "/reviews/:id/vote": "/664/reviews/:id"
 }
