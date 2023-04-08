@@ -11,6 +11,18 @@
       "password": "$2a$10$mho8ECgQyCeKFuLkCjVXX.Pm8ouCB.FpLjeDN2fKTLZdrEqBQb6yi",
       "username": "test2",
       "id": 2
+    },
+    {
+      "email": "pesho@test.com",
+      "password": "$2a$10$C0KrmBkXwL/XZzwsNwvWG.3V7hTp/znr4OXuqt9fbEPbQh.POCV8y",
+      "username": "pesho",
+      "id": 3
+    },
+    {
+      "email": "stamat@test.com",
+      "password": "$2a$10$9UqxK3xf1NqHN8Ea.9tukeYOkTzHR4q2SWGVEDu.KISLevFAdZ5LC",
+      "username": "stamat",
+      "id": 4
     }
   ],
   "reviews": [
@@ -19,8 +31,11 @@
       "bookId": 1,
       "title": "Amazing book",
       "content": "What an amazing book this was. I dont know what else to say so lorem ipsum. The trees are red and the sky is black, today I ate potatoes and life is good.",
-      "rating": "4",
-      "upvotes": [],
+      "rating": "5",
+      "upvotes": [
+        4,
+        3
+      ],
       "downvotes": [],
       "id": 1
     },
@@ -28,7 +43,10 @@
       "title": "Wonderful tale of magic",
       "content": "I like this very much and this is a random review to provide an example. Actually, I haven't read the book. Etc, etc, etc.",
       "rating": "5",
-      "upvotes": [],
+      "upvotes": [
+        4,
+        3
+      ],
       "downvotes": [],
       "userId": 1,
       "bookId": 6,
@@ -39,7 +57,9 @@
       "content": "An unassuming book about various topics everyone can relate to. Weird, but interesing. Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
       "rating": "4",
       "upvotes": [],
-      "downvotes": [],
+      "downvotes": [
+        3
+      ],
       "userId": 1,
       "bookId": 2,
       "id": 7
@@ -51,7 +71,10 @@
       "upvotes": [
         1
       ],
-      "downvotes": [],
+      "downvotes": [
+        4,
+        3
+      ],
       "userId": 2,
       "bookId": 4,
       "id": 8
@@ -59,12 +82,78 @@
     {
       "title": "A new review by test user 2",
       "content": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
-      "rating": "3",
+      "rating": "1",
       "upvotes": [],
-      "downvotes": [],
+      "downvotes": [
+        3
+      ],
       "userId": 2,
       "bookId": 1,
       "id": 9
+    },
+    {
+      "title": "Thrilling Read",
+      "content": "\"This book had me laughing, crying, and everything in between. The author's vivid descriptions transported me to another world, and the characters felt like old friends. A must-read for anyone who loves a heartwarming story.\"",
+      "rating": "5",
+      "upvotes": [],
+      "downvotes": [],
+      "userId": 4,
+      "bookId": 16,
+      "id": 10
+    },
+    {
+      "title": "Heartfelt Tale",
+      "content": "\"The prose in this novel was stunning. The author's use of language was both lyrical and powerful. The story tackled complex themes with grace and nuance. Highly recommended for fans of literary fiction.\"",
+      "rating": "4",
+      "upvotes": [
+        3
+      ],
+      "downvotes": [],
+      "userId": 4,
+      "bookId": 62,
+      "id": 11
+    },
+    {
+      "title": "Page-Turning Plot",
+      "content": "\"This book was an emotional rollercoaster. The author did a fantastic job of building tension and creating complex, flawed characters. It was a powerful exploration of family dynamics and the lasting effects of trauma.\"",
+      "rating": "3",
+      "upvotes": [],
+      "downvotes": [
+        3
+      ],
+      "userId": 4,
+      "bookId": 97,
+      "id": 12
+    },
+    {
+      "title": "Awful...",
+      "content": "I don't know what else to say. Don't buy this book, don't waste your time and money. Go have a beer and enjoy life.",
+      "rating": 1,
+      "upvotes": [],
+      "downvotes": [],
+      "userId": 3,
+      "bookId": 40,
+      "id": 13
+    },
+    {
+      "title": "Thought-Provoking Novel",
+      "content": "\"The world-building in this novel was superb. The author created a rich, immersive fantasy world that felt both familiar and entirely new. The characters were compelling, and the story kept me hooked from beginning to end.\"",
+      "rating": "5",
+      "upvotes": [],
+      "downvotes": [],
+      "userId": 3,
+      "bookId": 80,
+      "id": 14
+    },
+    {
+      "title": "truly mad",
+      "content": "well, middle of the road novel. not much to say, but kinda cool, so ill give it a 3",
+      "rating": "3",
+      "upvotes": [],
+      "downvotes": [],
+      "userId": 3,
+      "bookId": 59,
+      "id": 15
     }
   ],
   "books": [
